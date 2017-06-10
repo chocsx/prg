@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 960px;
+    display: flex;
+    margin: 0 auto;
+}
+header{
+    background-color: #002744;
+    padding: 15px 0;
+}
+.logo{
+    width: 200px;
+    padding: 0 10px;
+}
+nav ul{
+    display: flex;
+    width: 760px;
+    padding: 35px 0;
+    justify-content: flex-end;
+}
+nav ul li{
+    flex: 0 1 auto;
+    margin-left: 10px;
+}
+nav ul li a{
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+main{
+    height: 100vh;
+    max-height: 500px;
+}
+.slider div{
+    background-position: center center;
+    background-size: cover;
+    max-height: 500px;
+}
